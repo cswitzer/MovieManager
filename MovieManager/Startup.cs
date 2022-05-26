@@ -10,6 +10,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using MovieManager.Data;
+using MovieManager.Models;
 
 namespace MovieManager
 {
@@ -43,6 +44,12 @@ namespace MovieManager
                 app.UseExceptionHandler("/Error");
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
+            }
+
+            using (var scope = app.ApplicationServices.CreateScope())
+            {
+                var services = scope.ServiceProvider;
+                SeedData.Initialize(services);
             }
 
             app.UseHttpsRedirection();

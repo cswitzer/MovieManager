@@ -293,3 +293,8 @@ D:\C#Projects\MovieManager\MovieManager\obj\Debug\net5.0\refint\MovieManager.dll
 D:\C#Projects\MovieManager\MovieManager\obj\Debug\net5.0\MovieManager.pdb
 D:\C#Projects\MovieManager\MovieManager\obj\Debug\net5.0\MovieManager.genruntimeconfig.cache
 D:\C#Projects\MovieManager\MovieManager\obj\Debug\net5.0\ref\MovieManager.dll
+C:\Users\Chase\source\repos\MovieManager\MovieManager\obj\Debug\net5.0\Razor\Pages\Movies\Create.cshtml.g.cs
+C:\Users\Chase\source\repos\MovieManager\MovieManager\obj\Debug\net5.0\Razor\Pages\Movies\Delete.cshtml.g.cs
+C:\Users\Chase\source\repos\MovieManager\MovieManager\obj\Debug\net5.0\Razor\Pages\Movies\Details.cshtml.g.cs
+C:\Users\Chase\source\repos\MovieManager\MovieManager\obj\Debug\net5.0\Razor\Pages\Movies\Edit.cshtml.g.cs
+C:\Users\Chase\source\repos\MovieManager\MovieManager\obj\Debug\net5.0\Razor\Pages\Movies\Index.cshtml.g.cs
